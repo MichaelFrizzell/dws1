@@ -12,6 +12,7 @@ body {
 /* header_bg holds image to the left of header div */
 
 
+<<<<<<< HEAD
 #header_bg {
     background: url(../images/IMG_6723_200px.jpg) no-repeat top left;
     width: 100%;
@@ -19,6 +20,21 @@ body {
 }
 
 #header {
+=======
+header {
+    background: url(../images/IMG_6723_200px.jpg) no-repeat top left, url(../images/IMG_6722_200px.jpg) no-repeat top right;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+#header_text {
+    width: 55%;
+    margin: 0 auto;
+}
+
+nav {
+>>>>>>> master
     width: 55%;
     margin: 0 auto;
 }
@@ -26,7 +42,11 @@ body {
 /* amenities is a list floated to the left */
 
 
+<<<<<<< HEAD
 #amenities {
+=======
+aside {
+>>>>>>> master
     width: 30%;
     margin: 1% 2%;
     padding: 3px;
@@ -40,7 +60,11 @@ body {
     width: 60%;
     margin: 1% 2%;
     padding: 3px;
+<<<<<<< HEAD
     text-align: center;
+=======
+    text-align: right;
+>>>>>>> master
     float: right;
 }
 
@@ -61,23 +85,41 @@ h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 2.6em;
     text-decoration: underline;
+<<<<<<< HEAD
     text-shadow: 2px 2px 4px rgba(255, 153, 153, 100);
+=======
+    text-shadow: 2px 2px 4px rgba(255, 153, 153, .99);
+>>>>>>> master
     text-align: center;
 }
 
 h2 {
     font: italic normal 2.1em/110% 'Playfair Display', serif;
+<<<<<<< HEAD
     text-shadow: 1px 1px 2px rgba(255, 153, 153, 100);
+=======
+    text-shadow: 1px 1px 2px rgba(255, 153, 153, .99);
+>>>>>>> master
     text-align: center;
 } 
 
 h3 {
     font: italic normal 1.8em/110% 'Playfair Display', serif;
+<<<<<<< HEAD
 	text-shadow: 1px 1px 2px rgba(255, 153, 153, 100);
 	text-align: center;
 }
 
 
+=======
+	text-shadow: 1px 1px 2px rgba(255, 153, 153, .99);
+	text-align: center;
+}
+
+h4 {
+    text-size: .8em;
+}
+>>>>>>> master
 
 ul li {
     display: inline;
@@ -87,7 +129,11 @@ ul li {
 /* wrapper uses a gradient background and uses the rgba color scale  */
 
 
+<<<<<<< HEAD
 #wrapper {
+=======
+#page {
+>>>>>>> master
 	background: linear-gradient(to right, rgba(204,204,204, .90),rgba(184, 184, 184, .90));
 	width: 80%;
     margin: 0 auto;
@@ -96,6 +142,55 @@ ul li {
     padding: 5px 10px;
 }
 
+<<<<<<< HEAD
+=======
+td:hover {
+    background-color: hsla(181, 10%, 95%, 0.5);
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td, tr {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+form {
+    width: 60%;
+    clear: both;
+}
+
+select {
+    background-color: hsla(349, 100%, 69%, 0.05);
+}
+
+form:focus {
+    background-color: hsla(349, 100%, 69%, 0.05);
+}
+
+input:hover {
+    background-color: white;
+}
+
+input {
+    background-color: hsla(349, 100%, 69%, 0.05);
+    border: 1px solid red;
+}
+
+footer {
+    font-size: .08em;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+    text-align: center;
+}
+>>>>>>> master
 
 /* Links styled below */
 
